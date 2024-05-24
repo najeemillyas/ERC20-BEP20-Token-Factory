@@ -1,0 +1,26 @@
+# Ignore all .env files
+*.env
+
+# Ignore all log files
+*.log
+
+# Ignore node_modules directory (common for Node.js projects)
+node_modules/
+
+# Ignore all files in the tmp directory
+tmp/
+
+# Ignore all files with .secret extension
+*.secret
+
+# Ignore specific files
+config/database.yml
+secret_keys.txt
+
+#Ignore migrations
+
+migrations/2_deploy_erc20_token.js
+
+# Ingnore the truffle-config.js
+
+truffle-config.js
