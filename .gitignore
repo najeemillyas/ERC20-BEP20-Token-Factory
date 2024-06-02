@@ -24,7 +24,3 @@ migrations/2_deploy_erc20_token.js
 # Ingnore the truffle-config.js
 
 truffle-config.js
-
-# Ignore this file itself
-
-.gitignore
